@@ -18,35 +18,16 @@ body {
     margin: auto;
 }
 
-.logo {
-    height: 200px;
-    background-image: url('/img/logo/logo_500x200_white_n_glow.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left;
-    border: none;
-}
-
 div {
     font-size: 16px;
     font-family: 'Helvetica Neue UltraLight', 'Helvetica Neue', sans-serif;
 }
 
-.products {
-    margin-top: 50px;
-    text-align: left;
-}
-
-.header {
+.header-block {
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.block {
-    font-weight: 200;
-}
-
-.footer {
-    margin-top: 50px;
-    text-align: left;
+.text-block {
+    font-size: 14px;
 }
