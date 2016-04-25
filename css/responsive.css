@@ -69,7 +69,7 @@
 
 .content-block {
     padding-left: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .text-block {
@@ -84,5 +84,6 @@
 
     .content-block {
         padding-left: 10px;
+        margin-bottom: 15px;
     }
 }
