@@ -66,7 +66,7 @@
     background-size: contain;
     background-position: left;
     border: none;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .content-block {
@@ -76,18 +76,6 @@
 
 .text-block {
     margin-bottom: 3px;
-}
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-
-    .content-block {
-        padding-left: 10px;
-        margin-bottom: 15px;
-    }
 }
 
 html {
@@ -117,4 +105,21 @@ div {
 
 .text-block {
     font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .logo {
+        height: 160px;
+        margin-bottom: 20px;
+    }
+
+    .content-block {
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
 }
